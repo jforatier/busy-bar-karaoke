@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "net.foratier.karaoke",
+  "name": "Karaoke",
+  "version": "1.0.0",
+  "api_version": "27.14.0",
+  "description": "Karaoke on both sides of your BUSY Bar: lyrics in sync, public-domain songs",
+  "author": "Julien Foratier"
+}

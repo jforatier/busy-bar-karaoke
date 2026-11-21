@@ -1,0 +1,35 @@
+node_modules
+dist
+*.log
+
+# User songs are private (bought tracks, own lyrics): only the bundled sample is committed
+songs/*
+!songs/au-clair-de-la-lune/
+!songs/jingle-bells/
+!songs/silent-night/
+!songs/we-wish-you-a-merry-christmas/
+!songs/funiculi-funicula/
+!songs/la-cucaracha/
+!songs/can-can/
+src/sounds/
+src/songs.gen.ts
+
+# Yarn 2+ install state, rebuilt on every install
+.yarn/install-state.gz
+
+# Vite reads these, and they tend to hold secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# Local only: maintainer notes (the repo holds the work, not the workflow)
+TODO.md
+*.local.md
+__pycache__/
+/specs/ui-mockups

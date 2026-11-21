@@ -1,0 +1,23 @@
+{
+  "bpm": 300,
+  "meter": 6,
+  "intro": ["F", "C7"],
+  "chords": ["C7", "C7", "C7", "C7", "C7", "C7", "C7", "F", "F", "F", "F", "Bb", "Gm", "F", "C7", "F", "C7", "C7", "C7", "C7", "C7", "C7", "C7", "F", "F", "F", "F", "Bb", "Gm", "F", "C7", "F"],
+  "outro": ["F"],
+  "melody": "E5:3 D5 r:2  E5:3 D5 r:2  F5:2 E5 D5:2 F5  E5:4 r:2  E5:3 D5 r:2  E5:3 D5 r:2  F5:2 E5 D5:2 F5  C5 r A4 A4:2 A4  A4:2 A4 A4:2 A4  A4:2 A4 A4:2 A4  A4:2 A4 A4:2 A4  F5:6  G5:2 F5 D5:2 F5  C5 r A4 A4:2 Bb4  C5:2 Bb4 A4:2 G4  F4 r:5  E5:3 D5 r:2  E5:3 D5 r:2  F5:2 E5 D5:2 F5  E5:4 r:2  E5:3 D5 r:2  E5:3 D5 r:2  F5:2 E5 D5:2 F5  C5 r A4 A4:2 A4  A4:2 A4 A4:2 A4  A4:2 A4 A4:2 A4  A4:2 A4 A4:2 A4  F5:6  G5:2 F5 D5:2 F5  C5 r A4 A4:2 Bb4  C5:2 Bb4 A4:2 G4  F4 r:5",
+  "lyrics": [
+    [0, "Jam|me, jam|me, 'ncop|pa jam|me jà,"],
+    [24, "jam|me, jam|me, 'ncop|pa jam|me jà!"],
+    [44, "Fu|ni|cu|lì, fu|ni|cu|là,"],
+    [56, "fu|ni|cu|lì, fu|ni|cu|là!"],
+    [72, "'Ncop|pa jam|me jà,"],
+    [80, "fu|ni|cu|lì, fu|ni|cu|là!"],
+    [96, "Jam|me, jam|me, 'ncop|pa jam|me jà,"],
+    [120, "jam|me, jam|me, 'ncop|pa jam|me jà!"],
+    [140, "Fu|ni|cu|lì, fu|ni|cu|là,"],
+    [152, "fu|ni|cu|lì, fu|ni|cu|là!"],
+    [168, "'Ncop|pa jam|me jà,"],
+    [176, "fu|ni|cu|lì, fu|ni|cu|là!"],
+    [192, ""]
+  ]
+}

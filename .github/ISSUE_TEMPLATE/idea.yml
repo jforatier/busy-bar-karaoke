@@ -1,0 +1,29 @@
+name: Idea
+description: Suggest an improvement to the app.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: The app stays small on purpose (one setting, a few screens). An idea that solves a real moment of use has the best chance.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The moment it would help
+      description: Who is singing, where, and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What the bar would show or do. A sketch of the 72×16 or 160×80 screen helps.
+    validations:
+      required: true
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you build it?
+      description: Pull requests from outside are merged after the contest (mid-December 2026).
+      options: ["No", "Yes, once the idea is agreed"]
+    validations:
+      required: true

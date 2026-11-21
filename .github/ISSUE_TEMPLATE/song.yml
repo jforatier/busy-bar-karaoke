@@ -1,0 +1,56 @@
+name: Song
+description: Propose a public-domain song for the app.
+labels: [song]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The app only ships songs whose **melody and words** are free in both the EU and the US: see [specs/13](https://github.com/jforatier/busy-bar-karaoke/blob/main/specs/13-legal.md). A protected song can't be added, not even a re-synthesized excerpt. Don't paste the lyrics here.
+  - type: input
+    id: title
+    attributes:
+      label: Title and language
+      placeholder: Oh! Susanna (English)
+    validations:
+      required: true
+  - type: input
+    id: music
+    attributes:
+      label: Composer and year of death
+      placeholder: Stephen Foster, died 1864 (or "traditional")
+    validations:
+      required: true
+  - type: input
+    id: words
+    attributes:
+      label: Author of the words used, and year of death
+      description: The words you want sung. A translation has its own author.
+      placeholder: Stephen Foster, died 1864
+    validations:
+      required: true
+  - type: input
+    id: published
+    attributes:
+      label: First publication year
+      placeholder: "1848"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public-domain source of the melody
+      description: A score or ABC transcription in the public domain (IMSLP, a pre-1931 songbook…).
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this song
+      description: Who would sing it, and when.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: The composer and the author of these words died more than 70 years ago (or the song is traditional), and it was first published in 1930 or earlier (US public domain in 2026).
+          required: true

@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "version": 5,
+  "fields": {
+    "display": {
+      "type": "enum",
+      "label": "Display",
+      "description": "A comet over the lyrics, or giant words. OK switches during a song",
+      "default": "comet",
+      "options": [
+        { "value": "comet", "label": "Comet" },
+        { "value": "words", "label": "Giant words" }
+      ]
+    }
+  }
+}

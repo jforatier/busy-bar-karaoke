@@ -1,0 +1,52 @@
+name: Bug
+description: Something in the app doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks! One bug per issue, please. Check the [open issues](https://github.com/jforatier/busy-bar-karaoke/issues) first.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in the BUSY app, or the release you installed.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: BUSY app → your bar → firmware, or the emulator's version.
+      placeholder: 1.4.1
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: ["A BUSY Bar", "The emulator"]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, what you expected, what happened
+      description: Which song, which display (comet or giant words), front or back, and at which moment.
+      placeholder: |
+        1. Choose Jingle Bells, display Comet
+        2. Turn the wheel during the first verse
+        Expected: … / Happened: …
+    validations:
+      required: true
+  - type: textarea
+    id: capture
+    attributes:
+      label: Photo, video or screen capture
+      description: Drag it here. For timing issues, a short video with sound helps most.
+  - type: checkboxes
+    id: own-build
+    attributes:
+      label: Build
+      options:
+        - label: I use the published app (not a build with my own songs)

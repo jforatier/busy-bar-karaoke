@@ -1,0 +1,27 @@
+{
+  "bpm": 160,
+  "meter": 2,
+  "intro": ["C", "G7", "C", "G7"],
+  "chords": ["C", "G7", "C", "C", "G", "G7", "C", "G7", "C", "G7", "C", "C", "G", "G7", "C", "C", "C", "G7", "C", "C", "G", "G7", "C", "G7", "C", "G7", "C", "C", "G", "G7", "C", "C"],
+  "outro": ["C"],
+  "melody": "C5:2  D5:0.5 F5:0.5 E5:0.5 D5:0.5  G5 G5  G5:0.5 A5:0.5 E5:0.5 F5:0.5  D5 D5  D5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:0.5 C6:0.5 B5:0.5 A5:0.5  G5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:2  D5:0.5 F5:0.5 E5:0.5 D5:0.5  G5 G5  G5:0.5 A5:0.5 E5:0.5 F5:0.5  D5 D5  D5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:0.5 G5:0.5 D5:0.5 E5:0.5  C5 G4  C5:2  D5:0.5 F5:0.5 E5:0.5 D5:0.5  G5 G5  G5:0.5 A5:0.5 E5:0.5 F5:0.5  D5 D5  D5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:0.5 C6:0.5 B5:0.5 A5:0.5  G5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:2  D5:0.5 F5:0.5 E5:0.5 D5:0.5  G5 G5  G5:0.5 A5:0.5 E5:0.5 F5:0.5  D5 D5  D5:0.5 F5:0.5 E5:0.5 D5:0.5  C5:0.5 G5:0.5 D5:0.5 E5:0.5  C5:2",
+  "lyrics": [
+    [0, "Ta, ta ta ta ta"],
+    [4, "Ta ta, ta ta ta ta"],
+    [8, "Ta ta, ta ta ta ta"],
+    [12, "Ta ta ta ta ta ta ta ta"],
+    [16, "Ta, ta ta ta ta"],
+    [20, "Ta ta, ta ta ta ta"],
+    [24, "Ta ta, ta ta ta ta"],
+    [28, "Ta ta ta ta ta ta"],
+    [32, "Ta, ta ta ta ta"],
+    [36, "Ta ta, ta ta ta ta"],
+    [40, "Ta ta, ta ta ta ta"],
+    [44, "Ta ta ta ta ta ta ta ta"],
+    [48, "Ta, ta ta ta ta"],
+    [52, "Ta ta, ta ta ta ta"],
+    [56, "Ta ta, ta ta ta ta"],
+    [60, "Ta ta ta ta, hey!"],
+    [64, ""]
+  ]
+}

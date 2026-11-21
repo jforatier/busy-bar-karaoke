@@ -1,0 +1,8 @@
+# LF in the repository whatever the contributor's OS, so diffs show only real changes.
+* text=auto eol=lf
+
+*.png binary
+*.gif binary
+*.snd binary
+*.wav binary
+*.mp3 binary

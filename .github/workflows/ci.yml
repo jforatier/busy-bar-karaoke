@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      # CHANGELOG.md format, and manifest version = package.json version.
+      - run: npm run changelog
+
+      # What ships on the bar: runtime dependencies only (dev tools never reach the package).
+      - run: npm audit --omit=dev --audit-level=high
+
+      # busy-cli build alone, as the BUSY Apps Catalog runs it: vite.config.mjs generates the songs
+      # (git-ignored src/sounds and src/songs.gen.ts) from the committed scores, so this proves a clean clone builds.
+      - run: npm run build
+
+      # After the build, which generated the src/songs.gen.ts the app imports.
+      - run: npm run typecheck

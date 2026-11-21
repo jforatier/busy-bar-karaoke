@@ -1,0 +1,19 @@
+{
+  "bpm": 120,
+  "meter": 4,
+  "intro": ["C", "G"],
+  "chords": ["C", "C", "G", "C", "C", "C", "G", "C", "G", "Dm", "G", "G", "C", "C", "G", "C"],
+  "outro": ["C"],
+  "melody": "C5 C5 C5 D5 E5:2 D5:2 C5 E5 D5 D5 C5:4  C5 C5 C5 D5 E5:2 D5:2 C5 E5 D5 D5 C5:4  D5 D5 D5 D5 A4:2 A4:2 D5 C5 B4 A4 G4:4  C5 C5 C5 D5 E5:2 D5:2 C5 E5 D5 D5 C5:4",
+  "lyrics": [
+    [0, "Au clair de la lu|ne,"],
+    [8, "Mon a|mi Pier|rot,"],
+    [16, "Prê|te-|moi ta plu|me"],
+    [24, "Pour é|crire un mot."],
+    [32, "Ma chan|del|le_est mor|te,"],
+    [40, "Je n'ai plus de feu."],
+    [48, "Ou|vre-|moi ta por|te"],
+    [56, "Pour l'a|mour de Dieu."],
+    [64, ""]
+  ]
+}

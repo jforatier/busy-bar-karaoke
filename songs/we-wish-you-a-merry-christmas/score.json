@@ -1,0 +1,20 @@
+{
+  "bpm": 132,
+  "meter": 3,
+  "intro": ["C", "G7"],
+  "pickup": 1,
+  "chords": ["C", "F", "D7", "G", "E7", "Am", "G7", "C", "C", "F", "D7", "G", "E7", "Am", "G7", "C"],
+  "outro": ["C"],
+  "melody": "G4  C5 C5:0.5 D5:0.5 C5:0.5 B4:0.5  A4 A4 A4  D5 D5:0.5 E5:0.5 D5:0.5 C5:0.5  B4 G4 G4  E5 E5:0.5 F5:0.5 E5:0.5 D5:0.5  C5 A4 G4:0.5 G4:0.5  A4 D5 B4  C5:2 G4  C5 C5:0.5 D5:0.5 C5:0.5 B4:0.5  A4 A4 A4  D5 D5:0.5 E5:0.5 D5:0.5 C5:0.5  B4 G4 G4  E5 E5:0.5 F5:0.5 E5:0.5 D5:0.5  C5 A4 G4:0.5 G4:0.5  A4 D5 B4  C5:3",
+  "lyrics": [
+    [0, "We wish you a mer|ry Christ|mas,"],
+    [6, "We wish you a mer|ry Christ|mas,"],
+    [12, "We wish you a mer|ry Christ|mas"],
+    [18, "And a hap|py New Year!"],
+    [24, "Oh, bring us some fig|gy pud|ding,"],
+    [30, "Oh, bring us some fig|gy pud|ding,"],
+    [36, "Oh, bring us some fig|gy pud|ding"],
+    [42, "And a cup of good cheer!"],
+    [49, ""]
+  ]
+}

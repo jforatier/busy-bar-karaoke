@@ -1,0 +1,27 @@
+{
+  "bpm": 140,
+  "meter": 4,
+  "intro": ["C", "G7"],
+  "chords": ["C", "C", "C", "F", "F", "G", "G", "C", "C", "C", "C", "F", "F", "G", "G7", "C", "C", "C", "C", "C", "F", "C", "D7", "G", "C", "C", "C", "C", "F", "C", "G7", "C"],
+  "outro": ["C"],
+  "melody": "G4 E5 D5 C5  G4:3 G4:0.5 G4:0.5  G4 E5 D5 C5  A4:4  A4 F5 E5 D5  B4:4  G5 G5 F5 D5  E5:4  G4 E5 D5 C5  G4:4  G4 E5 D5 C5  A4:3 A4  A4 F5 E5 D5  G5 G5 G5 G5  A5 G5 F5 D5  C5:4  E5 E5 E5:2  E5 E5 E5:2  E5 G5 C5:1.5 D5:0.5  E5:4  F5 F5 F5:1.5 F5:0.5  F5 E5 E5 E5:0.5 E5:0.5  E5 D5 D5 E5  D5:2 G5:2  E5 E5 E5:2  E5 E5 E5:2  E5 G5 C5:1.5 D5:0.5  E5:4  F5 F5 F5 F5  F5 E5 E5 E5:0.5 E5:0.5  G5 G5 F5 D5  C5:4",
+  "lyrics": [
+    [0, "Dash|ing through the snow"],
+    [7, "In a one-|horse o|pen sleigh"],
+    [16, "O'er the fields we go"],
+    [24, "Laugh|ing all the way"],
+    [32, "Bells on bob|tail ring"],
+    [40, "Mak|ing spir|its bright,"],
+    [47, "What fun it is to ride and sing"],
+    [55, "A sleigh|ing song to|night!"],
+    [64, "Jin|gle bells, jin|gle bells,"],
+    [72, "Jin|gle all the way!"],
+    [80, "Oh what fun it is to ride"],
+    [87, "In a one-|horse o|pen sleigh, hey!"],
+    [96, "Jin|gle bells, jin|gle bells,"],
+    [104, "Jin|gle all the way!"],
+    [112, "Oh what fun it is to ride"],
+    [119, "In a one-|horse o|pen sleigh!"],
+    [128, ""]
+  ]
+}

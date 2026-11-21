@@ -1,0 +1,21 @@
+{
+  "bpm": 150,
+  "meter": 6,
+  "intro": ["F", "F"],
+  "chords": ["F", "F", "F", "F", "C7", "C7", "F", "F", "Bb", "Bb", "F", "F", "Bb", "Bb", "F", "F", "C7", "C7", "F", "F", "F", "C7", "F", "F"],
+  "outro": ["F"],
+  "melody": "C5:3 D5 C5:2  A4:6  C5:3 D5 C5:2  A4:6  G5:4 G5:2  E5:6  F5:4 F5:2  C5:6  D5:4 D5:2  F5:3 E5 D5:2  C5:3 D5 C5:2  A4:6  D5:4 D5:2  F5:3 E5 D5:2  C5:3 D5 C5:2  A4:6  G5:4 G5:2  Bb5:3 G5 E5:2  F5:6  A5:6  F5:3 C5 A4:2  C5:3 Bb4 G4:2  F4:12",
+  "lyrics": [
+    [0, "Si|lent night, ~"],
+    [12, "ho|ly night, ~"],
+    [24, "All is calm,"],
+    [36, "all is bright"],
+    [48, "Round yon Vir|gin"],
+    [58, "Mo|ther and Child. ~"],
+    [72, "Ho|ly In|fant so"],
+    [84, "ten|der and mild,"],
+    [96, "Sleep in heav|en|ly peace, ~"],
+    [120, "Sleep in heav|en|ly peace. ~"],
+    [144, ""]
+  ]
+}
